@@ -10,13 +10,13 @@ This React web app was deisgned to be the responsive front-end which allows user
 - [Libraries](#libraries)
 - [Installation](#installation)
 - [Structure](#structure)
-- [Containers](#containers)
+- [Components](#components)
 - [User Accounts](#user-accounts)
 - [Future Development](#future-development)
 
 ## Libraries & Middleware
 
-Podcaster was built using [create-react-app](https://github.com/facebook/create-react-app) and comes with the dependencies therein. [React Materialize](https://github.com/react-materialize/react-materialize) was used to style and add the web player. [React Router](https://github.com/ReactTraining/react-router) handles component rendering and navigation based on the URL/browse history.
+Podcaster was built using [create-react-app](https://github.com/facebook/create-react-app) and comes with the dependencies therein. [React Materialize](https://github.com/react-materialize/react-materialize) was used to style and add the web player. [React Router](https://github.com/ReactTraining/react-router) handles component rendering and navigation based on the URL/browse history. [React Audio Player](https://github.com/justinmc/react-audio-player) allows the user to listen to events through a react interface.  
 
 ## Installation 
 
@@ -32,22 +32,9 @@ The `src` folder includes: `components`, which organizes the bulk of the app's l
 
 ### AllPodcasts
 
-
 ### AudioPlayer
 
-### Create 
-
-### Episode 
-
 ### EpisodeContainer 
-
-### Footer 
-
-### Login 
-
-### NavieBar 
-
-### SearchForm 
 
 ### SelectedPodcast 
 
