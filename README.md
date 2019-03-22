@@ -1,54 +1,58 @@
+## Podcaster - Front End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React web app was deisgned to be the responsive front-end which allows users to find, learn more and listen to their favorite podcasts.  
+  + Built a front end with React that made our components tree easy to use and understand 
+  + Used React Router to route users to different pages 
+  + Imported React libraries to add additional functionality and a more user friendly experience
 
-Mod4-DSA-Podcaster
-It is an app that lets the user search and listen to their favorite podcast.
+## Contents
 
-Getting Started
-## Available Scripts
+- [Libraries](#libraries)
+- [Installation](#installation)
+- [Structure](#structure)
+- [Containers](#containers)
+- [User Accounts](#user-accounts)
+- [Future Development](#future-development)
 
-In the project directory, you can run:
+## Libraries & Middleware
 
-### `npm start`
+Podcaster was built using [create-react-app](https://github.com/facebook/create-react-app) and comes with the dependencies therein. [React Materialize](https://github.com/react-materialize/react-materialize) was used to style and add the web player. [React Router](https://github.com/ReactTraining/react-router) handles component rendering and navigation based on the URL/browse history.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+To get started with Podcaster, fork this repository and clone it to your hard drive. CD into the folder and run ```npm install```. Once the dependencies have been installed, you can run ```npm start``` to get your app running. For more information about how the back-end is structured, visit [this](https://github.com/d-collins2/Podcaster-Backend) repository.
 
-### `npm test`
+## Structure
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The top-level folder of Podcaster includes a `public` folder, which holds the `index.html` file where the app is officially rendered by React, an `src` folder which holds the application itself, and then a few other files: .gitignore, README, and package.json. 
 
-### `npm run build`
+The `src` folder includes: `components`, which organizes the bulk of the app's logic and content, and `index.js` handles how the app is mounted into the `index.html` file in the top-level folder. 
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Components
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### AllPodcasts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### AudioPlayer
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Create 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Episode 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### EpisodeContainer 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Footer 
 
-Built With
-React
-Materialize - Dependency Management
-Ruby on Rails
+### Login 
 
-Contributors
-Simon Lee
-Damon Collins
+### NavieBar 
 
+### SearchForm 
+
+### SelectedPodcast 
+
+## User Accounts 
+
+
+## Future Developments 
 
