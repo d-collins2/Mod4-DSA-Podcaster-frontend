@@ -1,10 +1,13 @@
+
 ## Podcaster - Front-End
 
 This React web app was deisgned to be the responsive front-end which allows users to find, learn more and listen to their favorite podcasts.  
   + Built a front end with React that made our components tree easy to use and understand 
   + Used React Router to route users to different pages 
   + Imported React libraries to add additional functionality and a more user friendly experience
- 
+  
+The Live Demo - Coming Soon!
+
 ## Contents
 
 - [Libraries](#libraries)
