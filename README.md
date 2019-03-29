@@ -4,8 +4,7 @@ This React web app was deisgned to be the responsive front-end which allows user
   + Built a front end with React that made our components tree easy to use and understand 
   + Used React Router to route users to different pages 
   + Imported React libraries to add additional functionality and a more user friendly experience
-
-The back-end of this app can be found [here](https://github.com/d-collins2/Podcaster-Backend).  
+ 
 ## Contents
 
 - [Libraries](#libraries)
