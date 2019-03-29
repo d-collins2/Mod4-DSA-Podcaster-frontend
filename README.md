@@ -32,16 +32,18 @@ The `src` folder includes: `components`, which organizes the bulk of the app's l
 
 ### AllPodcasts
 
-This component acts as the right tool bar which has all of the podcasts in the app in alphabetical order and a search function (```SearchForm.js```). The search function causes filter the podcasts with the given parameter and returns the result. Once the search field is empty the podcasts are shown in alphabetical order. 
+This component acts as the right tool bar, which has all of the podcasts in the app in alphabetical order and a search function. The ```SearchForm.js``` causes filter the podcasts with the given parameter and returns the result. Once the ```SearchForm.js``` is empty the podcasts are shown in alphabetical order. The favorites button allows the user to show podcasts which have been saved. 
 
 ### AudioPlayer
 
-This component uses the [React Audio Player](https://github.com/justinmc/react-audio-player) library to allow for the podcasts to seemlessly play in the app.
+This component uses the [React Audio Player](https://github.com/justinmc/react-audio-player) library to allow for the podcasts to seemlessly play in the app. The audio player is hidden until the first podcast is selected. 
 
 ### SelectedPodcast 
 
+This component shows the information on the podcast which is selected from the ```AllPodcast.js```. It also holds the ```EpisodeContainer.js``` which shows the episodes connected to the podcast. A click on any episode in the container begins opens the audio player and starts the episode. 
+
 ## User Accounts 
 
+Users do not experience many obstacles regarding sign-up: there are no requirements or validations. 
 
-## Future Developments 
 
