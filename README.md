@@ -6,7 +6,7 @@ This React web app was deisgned to be the responsive front-end which allows user
   + Used React Router to route users to different pages 
   + Imported React libraries to add additional functionality and a more user friendly experience
   
-The Live Demo - Coming Soon!
+The Live Demo - [Here](https://www.youtube.com/watch?v=3Zc7Oco0yII)
 
 ## Contents
 
